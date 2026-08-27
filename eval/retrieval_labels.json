@@ -1,0 +1,6 @@
+[
+  {"query": "how do I clear the conversation history?", "expected_source": "usage_notes.md"},
+  {"query": "what tools can the model call?", "expected_source": "usage_notes.md"},
+  {"query": "how do I get structured JSON output?", "expected_source": "usage_notes.md"},
+  {"query": "how do I ask questions about my own documents?", "expected_source": "usage_notes.md"}
+]

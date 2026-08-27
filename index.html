@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GARUD-AI Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>GARUD-AI</h2>
+        <ul>
+            <li>Dashboard</li>
+            <li>Alerts</li>
+            <li>Analytics</li>
+            <li>Map</li>
+            <li>Settings</li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+
+        <div class="header">
+            <h1>Dashboard</h1>
+            <button onclick="toggleTheme()">Toggle Theme</button>
+        </div>
+
+        <!-- Cards -->
+        <div class="cards">
+            <div class="card">
+                <h3>Active Alerts</h3>
+                <p id="alerts">5</p>
+            </div>
+
+            <div class="card">
+                <h3>Safe Zones</h3>
+                <p>12</p>
+            </div>
+
+            <div class="card">
+                <h3>Weather Status</h3>
+                <p>Storm Risk</p>
+            </div>
+        </div>
+
+        <!-- Alert Section -->
+        <div class="alerts-section">
+            <h2>Live Alerts</h2>
+            <ul id="alertList">
+                <li>⚠ Flood warning in Delhi</li>
+                <li>⚠ Earthquake detected</li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+[
+  {
+    "context": "Garud AI-1.0 supports four modes: chat, tools, json, and rag. Use /reset to clear conversation history.",
+    "answer": "Garud AI has four modes (chat, tools, json, rag) and you can clear history with /reset."
+  },
+  {
+    "context": "The calculator tool evaluates arithmetic expressions using a restricted AST parser, not Python's eval().",
+    "answer": "The calculator tool is implemented safely without using eval()."
+  }
+]

@@ -1,0 +1,15 @@
+torch>=2.2
+transformers>=4.44
+accelerate>=0.33
+
+# LLM layer: 4-bit inference + QLoRA fine-tuning (CUDA GPU required)
+bitsandbytes>=0.43
+peft>=0.12
+datasets>=2.20
+
+# RAG layer
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+
+# Web UI
+streamlit>=1.36
